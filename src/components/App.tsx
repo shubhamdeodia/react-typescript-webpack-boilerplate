@@ -1,9 +1,6 @@
-export interface HelloWorldProps {
-    userName: string;
-    lang: string;
-}
+import { HelloWorldProps } from './models/helloworld';
 
-export const App = (props: HelloWorldProps): JSX.Element => {
+const App = (props: HelloWorldProps): JSX.Element => {
     const { userName, lang } = props;
     return (
         <h1>
@@ -16,3 +13,5 @@ export const App = (props: HelloWorldProps): JSX.Element => {
         </h1>
     );
 };
+
+export default App;
