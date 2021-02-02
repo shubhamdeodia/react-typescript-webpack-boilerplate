@@ -12,7 +12,8 @@
     "include": [
       "src/components/index.tsx",
       "./.eslintrc.js",
-      "./webpack.config.js"
+      "./webpack.config.js",
+      "./babel.config.js"
     ]
   }
   
