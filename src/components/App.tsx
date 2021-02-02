@@ -1,4 +1,4 @@
-import { HelloWorldProps } from './models/helloworld';
+import { HelloWorldProps } from '../models/helloworld';
 
 const App = (props: HelloWorldProps): JSX.Element => {
     const { userName, lang } = props;

@@ -8,7 +8,7 @@ module.exports = {
     target: 'web',
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'bundle.js',
+        filename: '[name].[chunkhash].bundle.js',
     },
     resolve: {
         extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
