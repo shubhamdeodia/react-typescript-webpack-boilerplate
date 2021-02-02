@@ -25,6 +25,7 @@ module.exports = {
         project: './tsconfig.json',
     },
     rules: {
+        'react/react-in-jsx-scope': 'off',
         '@typescript-eslint/no-var-requires': 0,
         'linebreak-style': 'off',
         // Indent with 4 spaces
