@@ -1,4 +1,4 @@
-# React, Typescript, Eslint Template
+# React, Typescript, Eslint boilerpalte
 It's a simple tempalte which utilize the power of React, Typescript, Babel and Webpack
 
 ### Available Script
