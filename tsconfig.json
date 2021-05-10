@@ -10,6 +10,7 @@
       "target": "es5"
     },
     "include": [
+      "jest.config.js",
       "src/**/*",
       "./.eslintrc.js",
       "./webpack.config.js",
