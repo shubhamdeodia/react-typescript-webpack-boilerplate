@@ -1,1 +1,1 @@
-# react-webpack-boilerplate
+# react-typescript-webpack-boilerplate
