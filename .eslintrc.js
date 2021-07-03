@@ -2,39 +2,30 @@ module.exports = {
     extends: [
         'airbnb-typescript',
         'airbnb/hooks',
+        'prettier',
         'plugin:@typescript-eslint/recommended',
-        'plugin:jest/recommended',
+        'plugin:jest/recommended'
     ],
-    plugins: ['react', '@typescript-eslint', 'jest'],
+    plugins: ['react', '@typescript-eslint', 'jest', 'prettier'],
     env: {
         browser: true,
-        es6: true,
-        jest: true,
-    },
-    globals: {
-        Atomics: 'readonly',
-        SharedArrayBuffer: 'readonly',
+        es2021: true,
+        jest: true
     },
     parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaFeatures: {
-            jsx: true,
+            jsx: true
         },
-        ecmaVersion: 2018,
+        ecmaVersion: 12,
         sourceType: 'module',
-        project: './tsconfig.json',
+        project: './tsconfig.json'
     },
     rules: {
+        'prettier/prettier': 'error',
+        'react/require-default-props': 'off',
         'react/react-in-jsx-scope': 'off',
         '@typescript-eslint/no-var-requires': 0,
-        'linebreak-style': 'off',
-        // Indent with 4 spaces
-        indent: ['error', 4],
-        '@typescript-eslint/indent': ['error', 4],
-        // Indent JSX with 4 spaces
-        'react/jsx-indent': ['error', 4],
-
-        // Indent props with 4 spaces
-        'react/jsx-indent-props': ['error', 4],
-    },
+        'import/prefer-default-export': 'off'
+    }
 };
