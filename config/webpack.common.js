@@ -4,7 +4,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-    entry: path.resolve(__dirname, '../src/index.tsx'),
+    entry: [
+        'react-hot-loader/patch',
+        path.resolve(__dirname, '../src/index.tsx')
+    ],
     target: 'web',
     resolve: {
         extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],

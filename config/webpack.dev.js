@@ -8,7 +8,6 @@ const devConfig = {
     devServer: {
         port: 3000,
         hot: true,
-        contentBase: path.join(__dirname, 'src'),
         historyApiFallback: {
             index: 'index.html'
         }
