@@ -1,26 +1,26 @@
 {
     "compilerOptions": {
-      "jsx": "react-jsx",
-      "module": "ESNext",
-      "allowJs": true,
-      "noImplicitAny": true,
-      "outDir": "./build/",
-      "preserveConstEnums": true,
-      "removeComments": true,
-      "moduleResolution": "node",
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "sourceMap": true,
-      "target": "ES2020"
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "module": "ESNext",
+        "allowJs": true,
+        "noImplicitAny": true,
+        "outDir": "./build/",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "sourceMap": true,
+        "target": "ES2020"
     },
     "include": [
-      "jest.config.js",
-      "src/**/*",
-      "./.eslintrc.js",
-      "./config/webpack.common.js",
-      "./config/webpack.dev.js",
-      "./config/webpack.prod.js",
-      "./babel.config.js"
+        "jest.config.js",
+        "src/**/*",
+        "./.eslintrc.js",
+        "./config/webpack.common.js",
+        "./config/webpack.dev.js",
+        "./config/webpack.prod.js",
+        "./babel.config.js"
     ]
-  }
-  
+}
